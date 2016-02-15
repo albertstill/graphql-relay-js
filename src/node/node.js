@@ -65,7 +65,7 @@ export function nodeDefinitions(
     type: nodeInterface,
     args: {
       id: {
-        type: new GraphQLNonNull(GraphQLID),
+        type: GraphQLID,
         description: 'The ID of an object'
       }
     },
